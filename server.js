@@ -16,7 +16,7 @@ class Obj{
     }
     
 }
-app.use(express.static(__dirname));
+//app.use(express.static(__dirname));
 let onlineUsers={};
 io.on('connection', (socket) => {
     //io.emit('join;joi',{name:'aaaa',})
